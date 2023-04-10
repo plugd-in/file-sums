@@ -1,6 +1,8 @@
 # file-sums
 Sum three digit numbers in a file.
 
+**Note**: The included "sums" binary was compiled and linked on a system using a different version of libc,
+so this might need to be recompiled on other machines before use (use `gcc -o sums sums.c`).
 
 About the Project
 * The project I put together uses “argp” for command arguments, which means the command
